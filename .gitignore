@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS, Linux, Windows hidden files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Test/reporting stuff
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Streamlit
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# System-level
+*.swp
+*.bak
+*.tmp
+
+# Postman collections (optional)
+*.postman_collection.json
+
+# Node modules (in case of JS frontend work)
+node_modules/
+
+# IDE settings
+.idea/
