@@ -6,7 +6,7 @@ import numpy as np
 app = FastAPI()
 
 # Load model (use correct path based on your current directory)
-model = joblib.load("iris_logistic_model.pkl")
+model = joblib.load(r"E:\fastapi-projects\streamlit+ml+fastapi\iris-classification\model\iris_logistic_model.pkl")
 
 class IrisFeatures(BaseModel):
     SepalLengthCm: float
